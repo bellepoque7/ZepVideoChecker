@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Zep Video Checker",
+  "version": "1.0",
+  "description": "Plays an alarm sound when multiple videos are detected on Zep.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["*://zep.us/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://zep.us/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
