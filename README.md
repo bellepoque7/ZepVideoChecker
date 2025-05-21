@@ -14,6 +14,16 @@
 <img src="https://github.com/user-attachments/assets/cbaa93cd-8557-4a22-904b-ceca2b28b244" alt="image" width="300" />
 - 크롬 재시작
 
+# 기능
+- on off
+- 볼륨 조절
+
+# 유의사항
+
+- 크롬 동작만 확인하였습니다.
+- 기본 볼륨 설정이 0.5 인데 확인해보시고 content.js > videoAlarmSound.volume 값 수정, popup.html > volumeSilider의 기본 값 수정하셔서 사용하시면 될 것 같습니다.
+- 튜터 이름 부분에는 본인의 Zep 이름을 입력해주세요. (해당 이름은 오늘 방문자 수에 카운트 되지 않습니다.)
+- 일이 끝나는 시간은 24시간 기준으로 입력해주세요. (오후 6시 = 18)
 
 # Thnask to 
 - made by 단기심화 남동현 튜터
